@@ -25,7 +25,7 @@
 </head>
 <!-- <body  class="text-amber-900 font-Raleway bg-[url('/assets/tacked-steps-haikei-2.png')] bg-no-repeat bg-cover bg-opacity-5"> -->
 <body class="h-screen bg-[url('/assets/stacked-steps-haikei-2.png')] bg-no-repeat bg-cover flex items-center justify-center">
-  <section class="home mx-4 text-black hidden">    
+  <section class="home mx-4 text-black hero">    
     <!--Section One-->
       <section>
           <div class="mt-7">
@@ -38,13 +38,13 @@
             <!--Player 1 Name-->
             <div class="p-5">
                 <h1 class="text-3xl text-center mb-3">Player 1</h1>
-                <input type="text" class="bg-transparent  block mx-auto outline-none text-center w-[100%] box-border border-b-2 border-black">
+                <input type="text" class="player1-input bg-transparent  block mx-auto outline-none text-center w-[100%] box-border border-b-2 border-black">
             </div>
 
             <!--Player 2 Name-->
             <div class="p-5">
               <h1 class="text-3xl text-center mb-3">Player 2</h1>
-              <input type="text" class=" bg-transparent block mx-auto outline-none text-center w-[100%] box-border border-b-2 border-black">
+              <input type="text" class="player2-input bg-transparent block mx-auto outline-none text-center w-[100%] box-border border-b-2 border-black">
           </div>
 
           </div>
@@ -55,9 +55,9 @@
       <section class="mt-5 p-5">
           <div class="flex flex-col items-center justify-center p-5">
               <div><h1 class="text-base laptop:text-3xl mb-3">Target Score</h1></div>
-              <div class="bg-transparent"><input type="number" maxlength="3" size="3" class="border-b-2 border-black block mx-auto outline-none text-center bg-transparent remove-arrow"></div>
+              <div class="bg-transparent"><input type="number" maxlength="3" size="3" class="score-limit border-b-2 border-black block mx-auto outline-none text-center bg-transparent remove-arrow"></div>
               
-              <div><button class="mt-5 cursor-pointer transition-all bg-black text-white laptop:px-6 laptop:py-2 px-5 py-1 rounded-lg
+              <div><button class="ready-btn mt-5 cursor-pointer transition-all bg-black text-white laptop:px-6 laptop:py-2 px-5 py-1 rounded-lg
                 border-black
                 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
                 active:border-b-[2px] active:brightness-90 active:translate-y-[2px] laptop:text-2xl uppercase">
@@ -72,7 +72,7 @@
   <!--Main Page-->
 
   <section>
-    <main class="relative w-[100rem] h-[60%] bg-[#eb5e67] backdrop-blur-4 blur-0 shadow-lg border-4 overflow-hidden flex">
+    <main class="main hidden relative w-[100rem] h-[60%] bg-[#eb5e67] backdrop-blur-4 blur-0 shadow-lg border-4 overflow-hidden flex">
       <section class="flex w-1/2 p-36 flex-col items-center transition-all duration-750 player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
         <p class="score" id="score--0">43</p>
